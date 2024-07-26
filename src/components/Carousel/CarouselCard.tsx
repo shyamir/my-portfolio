@@ -10,13 +10,13 @@ const cardStyles = cva(
   {
     variants: {
       variant: {
-        primary: "bg-gradient-image-primary bg-cover text-neutral-soft4x",
-        secondary: "bg-neutral-bold opacity-30",
+        primary:
+          "bg-gradient-image-primary bg-cover text-neutral-soft4x hover:cursor-pointer hover:bg-gradient-image-primary-hover",
+        secondary: "bg-neutral-bold opacity-40 hover:cursor-pointer",
       },
       size: {
         lg: "h-[550px] w-[700px]",
         md: "h-[500px] w-[600px]",
-        sm: "h-[300px] w-[400px]",
       },
     },
     defaultVariants: {
@@ -63,7 +63,7 @@ const CarouselCard: React.FC<CarouselProps> = ({
       <Typography as="h3" variant="heading7">
         {projectType}
       </Typography>
-      <div className="mt-auto ml-auto mr-[-100px] mb-[-35px]">
+      <div className="mt-auto ml-auto mb-[0px]">
         <img src={projectImage} alt="Project 1 cover" />
       </div>
     </div>

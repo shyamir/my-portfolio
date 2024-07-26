@@ -209,13 +209,20 @@ function Resume() {
 
           {/* Download CV Button */}
           <div className="md:hidden flex flex-end w-full justify-end">
-            <TextButton size="lg" children="Download CV" label="download cv" />
+            {/* <TextButton size="lg" children="Download CV" label="download cv" /> */}
+            <TextButton
+              size="lg"
+              label="download cv"
+              href="/src/assets/docs/Shyami-Abeysekera.pdf"
+            >
+              Download CV
+            </TextButton>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col items-center md:w-3/12 lg:w-2/12">
-        <ContentTab items={resumeArray}  path="resume"/>
+        <ContentTab items={resumeArray} path="resume" />
       </div>
     </div>
   );
