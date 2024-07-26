@@ -6,17 +6,17 @@ import { useNavigate } from "react-router-dom";
 
 
 const cardStyles = cva(
-  "flex flex-col pl-10 pt-10 gap-2 rounded-3xl overflow-hidden bg-clip-border",
+  "flex flex-col md:pl-10 pl-6 md:pt-10 pt-6 gap-2 rounded-3xl overflow-hidden bg-clip-border",
   {
     variants: {
       variant: {
         primary:
           "bg-gradient-image-primary bg-cover text-neutral-soft4x hover:cursor-pointer hover:bg-gradient-image-primary-hover",
-        secondary: "bg-neutral-bold opacity-40 hover:cursor-pointer",
+        secondary: "bg-neutral-bold opacity-50 hover:cursor-pointer",
       },
       size: {
-        lg: "h-[550px] w-[700px]",
-        md: "h-[500px] w-[600px]",
+        lg: "h-[58vh] w-[82vw] md:h-[68vh] md:w-[48vw] lg:h-[70vh] lg:w-[50vw]",
+        md: "h-[57.5vh] w-[81.5vw] md:h-[67.5vh] md:w-[47.5vw] lg:h-[69.5vh] lg:w-[49.5vw]",
       },
     },
     defaultVariants: {

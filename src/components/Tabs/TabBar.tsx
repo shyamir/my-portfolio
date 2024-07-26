@@ -9,8 +9,8 @@ const navigation = [
 export default function TabBar() {
   return (
     // <div className="inset-0 flex items-center justify-center fixed mx-8">
-    <div className="flex justify-center fixed bottom-0 w-screen" >
-      <div className="absolute bg-neutral-bold rounded-full bottom-6 py-1 gap-4 px-4 py-2 flex items-center justify-between w-full md:w-fit">
+    <div className="flex justify-center fixed bottom-0 w-screen">
+      <div className="absolute bg-neutral-bold rounded-full bottom-4 py-1 gap-4 px-4 py-2 flex items-center justify-between w-11/12 mx-20 md:w-fit">
         {navigation.map((item) => (
           <NavLink
             key={item.name}

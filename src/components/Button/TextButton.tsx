@@ -70,7 +70,7 @@ const buttonStyles = cva("flex items-center justify-center rounded-lg", {
   variants: {
     variant: {
       primary:
-        "text-neutral-soft4x bg-gradient-to-br from-primary-main to-secondary-main hover:from-primary-bold hover:to-secondary-bold hover:text-neutral-soft3x",
+        "text-neutral-soft3x bg-gradient-to-br from-primary-bold to-secondary-bold hover:from-primary-main hover:to-secondary-main hover:text-neutral-soft4x",
       secondary: "bg-none text-neutral-main hover:text-neutral-soft",
     },
     size: {

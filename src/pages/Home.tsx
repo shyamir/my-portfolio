@@ -42,7 +42,7 @@ const carouselItems = [
 
 function Home() {
   return (
-    <div className="flex flex-col gap-6 h-screen overflow-hidden">
+    <div className="flex flex-col h-screen overflow-hidden">
       <div className="flex md:w-5/12 flex-col gap-y-4 px-6 pt-20 md:px-16">
         <p className="text-neutral-main tracking-widest">
           A<span className="font-bold">YUB</span>O
@@ -58,7 +58,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="md:w-full md:h-full text-neutral-main flex items-center justify-center">
+      <div className="w-full h-full text-neutral-main flex items-center justify-center">
         <Carousel items={carouselItems} />
       </div>
     </div>
