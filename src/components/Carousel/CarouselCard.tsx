@@ -4,9 +4,8 @@ import Typography from "../Typography/Typography";
 import cn from "../../util/cn";
 import { useNavigate } from "react-router-dom";
 
-
 const cardStyles = cva(
-  "flex flex-col md:pl-10 pl-6 md:pt-10 pt-6 gap-2 rounded-3xl overflow-hidden bg-clip-border",
+  "flex flex-col gap-2 rounded-3xl overflow-hidden bg-clip-border",
   {
     variants: {
       variant: {
@@ -29,10 +28,11 @@ const cardStyles = cva(
 interface CarouselProps extends VariantProps<typeof cardStyles> {
   children?: ReactNode;
   items?: [];
-  projectName: string;
-  projectType: string;
-  projectImage: string;
+  projectName?: string;
+  projectType?: string;
+  projectImage?: string;
   projectUrl: string;
+  layout: boolean;
 }
 
 const CarouselCard: React.FC<CarouselProps> = ({
@@ -42,6 +42,7 @@ const CarouselCard: React.FC<CarouselProps> = ({
   projectType,
   projectImage,
   projectUrl,
+  layout,
 }) => {
   const navigate = useNavigate();
 
@@ -51,21 +52,36 @@ const CarouselCard: React.FC<CarouselProps> = ({
 
   return (
     <div className={cn(cardStyles({ variant, size }))} onClick={handleClick}>
-      <Typography
-        as="h3"
-        variant="heading2"
-        className={
-          variant === "primary" ? "text-neutral-soft2x" : "text-neutral-main"
-        }
-      >
-        {projectName}
-      </Typography>
-      <Typography as="h3" variant="heading7">
-        {projectType}
-      </Typography>
-      <div className="mt-auto ml-auto mb-[0px]">
-        <img src={projectImage} alt="Project 1 cover" />
-      </div>
+      {layout ? (
+        <div className="md:pl-10 pl-6 md:pt-10 pt-6">
+          <Typography
+            as="h3"
+            variant="heading2"
+            className={
+              variant === "primary"
+                ? "text-neutral-soft2x"
+                : "text-neutral-main"
+            }
+          >
+            {projectName}
+          </Typography>
+          <Typography as="h3" variant="heading7">
+            {projectType}
+          </Typography>
+          <div className="mt-auto ml-auto mb-[0px]">
+            <img src={projectImage} alt="Project 1 cover" />
+          </div>
+        </div>
+      ) : (
+        <div className="flex flex-col justify-center items-center absolute h-full w-full">
+          <Typography as="h3" variant="heading7">
+            {projectType}
+          </Typography>
+          <Typography as="h3" variant="heading7" className="text-neutral-soft">
+            coming soon
+          </Typography>
+        </div>
+      )}
     </div>
   );
 };

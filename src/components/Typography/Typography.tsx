@@ -17,7 +17,6 @@ const variantClasses = {
   body3: "text-neutral-main text-xs leading-6 font-light",
   body4: "text-neutral-main text-sm",
   body5: "text-neutral-soft2x text-xs leading-6 font-light",
-  // body5: "text-neutral-main text-sm",
 };
 
 type Variant = keyof typeof variantClasses;

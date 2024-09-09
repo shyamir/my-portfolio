@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import CarouselCard from "./CarouselCard";
 
 type CarouselProps = {
-  items: { name: string; type: string; image: any; url: string }[];
+  items: { name: string; type: string; image: any; url: string; isAvailable: boolean }[];
 };
 
 export default function Carousel({ items }: CarouselProps) {
@@ -22,6 +22,7 @@ export default function Carousel({ items }: CarouselProps) {
     return () => clearInterval(interval);
   }, [items.length]);
 
+  
   return (
     <div className="relative w-full h-full flex flex-row gap-10 justify-center items-center">
       {items.map((item, index) => {
@@ -76,6 +77,7 @@ export default function Carousel({ items }: CarouselProps) {
               projectType={item.type}
               projectImage={item.image}
               projectUrl={item.url}
+              layout={item.isAvailable}
             />
           </div>
         );

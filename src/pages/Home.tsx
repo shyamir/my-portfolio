@@ -2,41 +2,43 @@
 import Typography from "../components/Typography/Typography";
 import Project1 from "../assets/home/project1.png";
 import Project2 from "../assets/home/project2.png";
-import Project3 from "../assets/home/project3.png";
-import Project4 from "../assets/home/project4.png";
-import Project5 from "../assets/home/project5.png";
 import Carousel from "../components/Carousel/Carousel";
 
 const carouselItems = [
   {
     name: "Website Builder + CMS",
-    type: "UX DESIGN",
+    type: "ux design",
     image: Project1,
     url: "/website-builder+cms",
+    isAvailable: true,
   },
   {
     name: "A M Kreations Revamp",
-    type: "UX DESIGN",
+    type: "ux design",
     image: Project2,
     url: "/am-kreations-revamp",
+    isAvailable: true,
   },
   {
-    name: "AR Application Name",
-    type: "AR design",
-    image: Project3,
-    url: "/ar-application-name",
+    name: "",
+    type: "accessibility project",
+    image: "",
+    url: "",
+    isAvailable: false,
   },
   {
-    name: "AR Application Name",
-    type: "AR design",
-    image: Project4,
-    url: "/ar-application-name",
+    name: "",
+    type: "ar design project",
+    image: "",
+    url: "",
+    isAvailable: false,
   },
   {
-    name: "Project 4",
-    type: "Something design",
-    image: Project5,
-    url: "/ar-application-name",
+    name: "",
+    type: "smart home project",
+    image: "",
+    url: "",
+    isAvailable: false,
   },
 ];
 
