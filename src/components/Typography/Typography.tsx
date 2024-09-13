@@ -13,7 +13,7 @@ const variantClasses = {
   heading6: "text-lg md:max-lg:flex:text-xs",
   heading7: "uppercase tracking-widest text-md md:max-lg:flex:text-xs",
   body1: "text-neutral-soft text-xs lg:text-sm leading-5 font-light",
-  body2: "text-neutral-soft2x text-sm leading-6 font-light",
+  body2: "text-neutral-soft4x text-sm leading-6 font-light",
   body3: "text-neutral-main text-xs leading-6 font-light",
   body4: "text-neutral-main text-sm",
   body5: "text-neutral-soft2x text-xs leading-6 font-light",

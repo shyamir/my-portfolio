@@ -46,8 +46,8 @@ export default function ContentTab({ items, path }: ContentTabProps) {
   };
 
   return (
-    <div className="hidden md:fixed md:h-[90%]	md:flex md:flex-col md:justify-between md:pb-6">
-      <div className="md:mt-4 md:flex md:flex-col md:gap-4">
+    <div className="hidden lg:fixed lg:h-[90%] lg:flex lg:flex-col lg:justify-between lg:pb-6">
+      <div className="lg:mt-4 lg:flex lg:flex-col lg:gap-4">
         <Typography as="h3" variant="heading5">
           Contents
         </Typography>

@@ -96,7 +96,7 @@ module.exports = {
 
         "neutral-main": "#515151",
 
-        "neutral-soft": "#939393",
+        "neutral-soft": "#A8A8A8",
         "neutral-soft2x": "#D9D9D9",
         "neutral-soft3x": "#E8E8E8",
         "neutral-soft4x": "#FDFDFD",
@@ -104,6 +104,10 @@ module.exports = {
         "neutral-bold": "#1B1B1B",
         "neutral-bold2x": "#131313",
         "neutral-bold3x": "#0E0E0E",
+      },
+      dropShadow: {
+        // md: "0 2px 2px rgba(255, 255, 255, 0.5)",
+        md: "1px 1px 5px rgba(255, 255, 255, 0.4)",
       },
     },
     plugins: [

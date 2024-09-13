@@ -44,7 +44,7 @@ const carouselItems = [
 
 function Home() {
   return (
-    <div className="flex flex-col h-screen overflow-hidden">
+    <div className="flex flex-col h-dvh overflow-hidden">
       <div className="flex md:w-5/12 flex-col gap-y-4 px-6 pt-20 md:px-16">
         <p className="text-neutral-main tracking-widest">
           A<span className="font-bold">YUB</span>O
