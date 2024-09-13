@@ -144,7 +144,7 @@ const educationArray = [
     program: "Professional Certificate",
   },
   {
-    name: "Google UX Desing",
+    name: "Google UX Design",
     date: "Oct 2022",
     program: "Professional Certificate",
   },

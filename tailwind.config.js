@@ -77,7 +77,8 @@ module.exports = {
       widest: ".25em",
     },
     fontFamily: {
-      sans: ['"Product Sans"', "sans-serif"],
+      // sans: ['"Product Sans"', "sans-serif"],
+      sans: ["DM Sans", "sans-serif"],
     },
     extend: {
       backgroundImage: {

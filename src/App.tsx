@@ -10,7 +10,7 @@ import Test from "./pages/Test";
 
 function App() {
   return (
-    <div className="bg-neutral-bold3x h-screen">
+    <div className="bg-neutral-bold3x">
       <Header />
       <BrowserRouter>
         <Routes>
