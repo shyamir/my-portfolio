@@ -14,8 +14,8 @@ const cardStyles = cva(
         secondary: "bg-neutral-bold opacity-50 hover:cursor-pointer",
       },
       size: {
-        lg: "h-[52vh] w-[82vw] md:h-[68vh] md:w-[48vw] lg:h-[70vh] lg:w-[50vw]",
-        md: "h-[51.5vh] w-[81.5vw] md:h-[67.5vh] md:w-[47.5vw] lg:h-[69.5vh] lg:w-[49.5vw]",
+        lg: "h-[52vh] w-[82vw] md:h-[56vh] md:w-[60vw] xl:h-[70vh] lg:w-[50vw]",
+        md: "h-[51.5vh] w-[81.5vw] md:h-[56vh] md:w-[60vw] xl:h-[69.5vh] lg:w-[49.5vw]",
       },
     },
     defaultVariants: {

@@ -48,7 +48,7 @@ export default function MainCard({
               </div>
 
               {/* Card Body */}
-              <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full items-center">
+              <div className="flex flex-col lg:flex-row gap-8 md:gap-12 w-full items-center">
                 <img
                   src={Portrait}
                   alt="Shyami Abeysekera"
