@@ -29,7 +29,7 @@ function About() {
         <Typography as="h3" variant="heading5" className="text-center">
           things my colleagues say
         </Typography>
-        <div className="flex flex-col md:flex-row gap-6 md:gap-32 w-full">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 w-full">
           <div className="w-fill flex flex-col gap-3">
             <Typography as="p" variant="body1">
               "Donec velit lectus bibendum diam quis libero augue eleifend

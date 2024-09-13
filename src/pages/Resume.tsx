@@ -208,8 +208,7 @@ function Resume() {
           </div>
 
           {/* Download CV Button */}
-          <div className="md:hidden flex flex-end w-full justify-end">
-            {/* <TextButton size="lg" children="Download CV" label="download cv" /> */}
+          <div className="lg:hidden flex flex-end w-full justify-end">
             <TextButton
               size="lg"
               label="download cv"
@@ -221,7 +220,7 @@ function Resume() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:w-3/12 lg:w-2/12">
+      <div className="lg:w-2/12">
         <ContentTab items={resumeArray} path="resume" />
       </div>
     </div>

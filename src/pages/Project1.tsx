@@ -227,11 +227,11 @@ function Project1() {
             <Typography as="h3" variant="heading5">
               Research & Analysis
             </Typography>
-            <div className="flex flex-col md:flex-row gap-8 md:gap-20">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-10 lg:gap-20">
               <div className="md:w-1/2">
                 <SolidCard items={researchArray} layout={"project"} />
               </div>
-              <div className="md:w-1/2 md:pt-20 flex flex-col gap-4 md:gap-8">
+              <div className="md:w-1/2 flex flex-col gap-4 md:gap-8">
                 <Typography as="h3" variant="heading3">
                   To tackle these limitations, we conducted a competitive audit.
                 </Typography>
@@ -251,7 +251,7 @@ function Project1() {
             <Typography as="h3" variant="heading5">
               Layout
             </Typography>
-            <div className="flex flex-col md:flex-row gap-10 md:gap-20">
+            <div className="flex flex-col md:flex-row gap-10 lg:gap-20">
               <div className="md:w-1/2 flex flex-col gap-4">
                 <ToggleCard
                   image1={Layout1Off}
@@ -284,13 +284,13 @@ function Project1() {
               Visual Design
             </Typography>
 
-            <div className="bg-neutral-bold2x rounded-xl flex flex-col gap-4 md:flex-row px-4 py-8 md:px-16 md:py-16 items-center">
+            <div className="bg-neutral-bold2x rounded-xl flex flex-col gap-12 lg:gap-4 lg:flex-row px-4 py-8 lg:px-4 lg:py-12 items-center">
               <img
                 src={VisualDesign}
                 alt="Button"
-                className="px-16 md:w-1/3 md:border-r md:pr-20 pb-8 md:pb-0 border-r-0 md:border-b-0 border-b border-neutral-main"
+                className="px-16 w-9/12	lg:w-1/3 lg:border-r border-none md:pr-20 pb-2 md:pb-8 md:pb-0 border-r-0 lg:border-b-0 border-b border-neutral-main"
               />
-              <div className="w-full md:w-2/3 flex flex-col gap-8">
+              <div className="w-full lg:w-2/3 flex flex-col gap-8">
                 <div className="flex flex-row gap md:gap-10 items-center px-2 md:px-10 w-fill">
                   <Typography as="p" variant="body1" className="md:w-1/4 w-1/3">
                     Primary
@@ -345,7 +345,7 @@ function Project1() {
         </div>
       </div>
 
-      <div className="md:w-2/12">
+      <div className="lg:w-2/12">
         <ContentTab items={projectArray} path="website-builder+cms" />
       </div>
     </div>

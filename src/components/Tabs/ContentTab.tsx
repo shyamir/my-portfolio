@@ -77,6 +77,7 @@ export default function ContentTab({ items, path }: ContentTabProps) {
           children="Download CV"
           className="w-fit"
           label="download cv"
+          href="/src/assets/docs/Shyami-Abeysekera.pdf"
         />
       )}
     </div>

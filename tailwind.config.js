@@ -104,7 +104,7 @@ module.exports = {
 
         "neutral-bold": "#1B1B1B",
         "neutral-bold2x": "#131313",
-        "neutral-bold3x": "#0E0E0E",
+        "neutral-bold3x": "#0C0C0C",
       },
       dropShadow: {
         // md: "0 2px 2px rgba(255, 255, 255, 0.5)",

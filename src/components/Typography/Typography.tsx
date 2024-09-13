@@ -9,7 +9,7 @@ const variantClasses = {
   heading4:
     "tracking-widest bg-gradient-to-br from-primary-main to-secondary-main text-transparent bg-clip-text uppercase font-light text-xs",
   heading5:
-    "uppercase tracking-widest text-neutral-main font-light text-xs md:max-lg:flex:text-xs",
+    "uppercase tracking-widest text-neutral-main font-medium text-xs md:max-lg:flex:text-xs",
   heading6: "text-lg md:max-lg:flex:text-xs",
   heading7: "uppercase tracking-widest text-md md:max-lg:flex:text-xs",
   body1: "text-neutral-soft text-sm leading-5",
