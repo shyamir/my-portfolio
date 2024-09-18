@@ -14,7 +14,7 @@ const carouselItems = [
   },
   {
     name: "A M Kreations Revamp",
-    type: "ux design",
+    type: "web design",
     image: Project2,
     url: "/am-kreations-revamp",
     isAvailable: true,
