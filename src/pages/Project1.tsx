@@ -8,6 +8,7 @@ import MainCard from "../components/Card/MainCard";
 
 // assets
 import Image1 from "../assets/project1/image1.png";
+import Image2 from "../assets/project1/image2.png";
 import Layout1On from "../assets/project1/layout1-on.png";
 import Layout1Off from "../assets/project1/layout1-off.png";
 
@@ -152,16 +153,18 @@ function Project1() {
           ></Typography>
         </div>
 
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-16">
           {/* Highlights */}
           <div id="Highlights" className="section">
             <MainCard
+              video1="image1"
+              video2="image2"
               layout={"project"}
               topic="highlights"
               sentence1="An end-to-end, B2B SaaS website builder"
               image1={Image1}
               sentence2="with an embedded content management system"
-              image2={Image1}
+              image2={Image2}
             />
           </div>
 
@@ -206,7 +209,7 @@ function Project1() {
                   new and improved website builder with an embedded content
                   management system. The launch of version 2 was met with
                   improved efficiency for the in-house developers & designers,
-                  as well as clients.{" "}
+                  as well as clients.
                 </Typography>
               </div>
             </div>

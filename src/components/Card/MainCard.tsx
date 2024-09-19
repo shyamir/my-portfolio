@@ -8,9 +8,13 @@ interface CardProps {
   image1?: string;
   image2?: string;
   layout: "project" | "about";
+  video1?: "video1" | "image1";
+  video2?: "video2" | "image2";
 }
 
 export default function MainCard({
+  video1,
+  video2,
   layout,
   topic,
   sentence1,
@@ -159,11 +163,22 @@ export default function MainCard({
                     {sentence1}
                   </Typography>
                   <div>
-                    <img
-                      src={image1}
-                      alt="Website builder + CMS"
-                      className="rounded-xl md:h-auto bg-cover"
-                    />
+                    {video1 === "video1" ? (
+                      <video
+                        className="VideoTag rounded-xl md:h-auto bg-cover"
+                        autoPlay
+                        loop
+                        muted
+                      >
+                        <source src={image1} type="video/mp4" />
+                      </video>
+                    ) : (
+                      <img
+                        src={image1}
+                        alt="Website builder + CMS"
+                        className="rounded-xl md:h-auto bg-cover"
+                      />
+                    )}
                   </div>
                 </div>
 
@@ -173,13 +188,24 @@ export default function MainCard({
                     variant="heading3"
                     className="mb-2 text-center"
                   >
-                    {sentence1}
+                    {sentence2}
                   </Typography>
-                  <img
-                    src={image2}
-                    alt="Website builder + CMS"
-                    className="rounded-xl"
-                  />
+                  {video2 === "video2" ? (
+                    <video
+                      className="VideoTag rounded-xl md:h-auto bg-cover"
+                      autoPlay
+                      loop
+                      muted
+                    >
+                      <source src={image2} type="video/mp4" />
+                    </video>
+                  ) : (
+                    <img
+                      src={image2}
+                      alt="Website builder + CMS"
+                      className="rounded-xl md:h-auto bg-cover"
+                    />
+                  )}
                 </div>
               </div>
             </>

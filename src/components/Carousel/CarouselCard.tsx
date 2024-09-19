@@ -15,7 +15,7 @@ const cardStyles = cva(
       },
       size: {
         lg: "h-[52vh] w-[82vw] md:h-[56vh] md:w-[60vw] xl:h-[65vh] lg:w-[50vw]",
-        md: "h-[51.5vh] w-[81.5vw] md:h-[56vh] md:w-[60vw] xl:h-[65vh] lg:w-[49.5vw]",
+        md: "h-[52vh] w-[82vw] md:h-[56vh] md:w-[60vw] xl:h-[65vh] lg:w-[50vw]",
       },
     },
     defaultVariants: {
@@ -54,21 +54,24 @@ const CarouselCard: React.FC<CarouselProps> = ({
     <div className={cn(cardStyles({ variant, size }))} onClick={handleClick}>
       {layout ? (
         <div className="md:pl-10 pl-6 md:pt-10 pt-6">
-          <Typography
-            as="h3"
-            variant="heading2"
-            className={
-              variant === "primary"
-                ? "text-neutral-soft2x"
-                : "text-neutral-main"
-            }
-          >
-            {projectName}
-          </Typography>
-          <Typography as="h3" variant="heading7">
-            {projectType}
-          </Typography>
-          <div className="mt-auto ml-auto mb-[0px]">
+          <div className="flex flex-col gap-2">
+            <Typography
+              as="h3"
+              variant="heading2"
+              className={
+                variant === "primary"
+                  ? "text-neutral-soft2x"
+                  : "text-neutral-main"
+              }
+            >
+              {projectName}
+            </Typography>
+            <Typography as="h3" variant="heading7">
+              {projectType}
+            </Typography>
+          </div>
+
+          <div className="mt-auto ml-auto pl-8 pt-1 ">
             <img src={projectImage} alt="Project 1 cover" />
           </div>
         </div>
