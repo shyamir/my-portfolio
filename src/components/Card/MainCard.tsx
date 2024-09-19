@@ -132,14 +132,14 @@ export default function MainCard({
                           variant="body1"
                           className="mb-2 leading-3"
                         >
-                          +94 770 763 080
+                          <a href="tel:+94770763080">+94 770 763 080</a>
                         </Typography>
                         <Typography
                           as="p"
                           variant="body1"
                           className="mb-2 leading-3"
                         >
-                          abeysekera.shyami@gmail.com
+                          <a href="mailto:abeysekera.shyami@gmail.com">abeysekera.shyami@gmail.com</a>
                         </Typography>
                       </div>
                     </div>

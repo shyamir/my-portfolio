@@ -13,13 +13,6 @@ const carouselItems = [
     isAvailable: true,
   },
   {
-    name: "A M Kreations Revamp",
-    type: "web design",
-    image: Project2,
-    url: "/am-kreations-revamp",
-    isAvailable: true,
-  },
-  {
     name: "",
     type: "accessibility project",
     image: "",
@@ -39,6 +32,13 @@ const carouselItems = [
     image: "",
     url: "",
     isAvailable: false,
+  },
+  {
+    name: "A M Kreations Revamp",
+    type: "web design",
+    image: Project2,
+    url: "/am-kreations-revamp",
+    isAvailable: true,
   },
 ];
 

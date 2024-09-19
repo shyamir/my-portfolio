@@ -29,7 +29,7 @@ const projectArray = [
   "Structure",
   "Wireframes",
   "Visual Design",
-  "Before and After",
+  "Before & After",
 ];
 
 const researchArray = [
@@ -80,7 +80,7 @@ function Project2() {
           ></Typography>
         </div>
 
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-8 md:gap-16">
           {/* Highlights */}
           <div id="Highlights" className="section">
             <MainCard
@@ -147,7 +147,7 @@ function Project2() {
             <Typography as="h3" variant="heading5">
               Research & Analysis
             </Typography>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-col md:flex-row gap-2 md:gap-6">
               <DefaultCard items={researchArray} layout={"project"} />
             </div>
           </div>
@@ -158,7 +158,7 @@ function Project2() {
               Structure
             </Typography>
             <div className="container w-full bg-gradient-to-r from-neutral-bold2x via-primary-soft to-neutral-bold2x rounded-2xl pt-0.5">
-              <div className="h-full w-full bg-neutral-bold2x rounded-2xl px-6 md:px-10 lg:px-20 pt-8 pb-6 md:pb-8 xl:pb-12 flex flex-col items-center justify-center gap-4 md:gap-6">
+              <div className="h-full w-full bg-neutral-bold2x rounded-2xl px-2 md:px-10 lg:px-20 md:pt-8 pt-4 pb-4 md:pb-8 xl:pb-12 flex flex-col items-center justify-center">
                 <img src={IA} alt="Information Architecture" />
               </div>
             </div>
@@ -175,15 +175,7 @@ function Project2() {
               usability and content placement before final design elements are
               applied.
             </Typography>
-            <img src={Wireframe} className="p-10" alt="Wireframes" />
-            <div className="flex justify-end">
-              <Typography as="p" variant="body3">
-                <span className="font-bold	">5.0</span> AM Kreations Wireframes{" "}
-                <span className="bg-neutral-bold py-1 px-2 rounded-xl text-neutral-main">
-                  IMAGE
-                </span>
-              </Typography>
-            </div>
+            <img src={Wireframe} className="p-6 md:p-10" alt="Wireframes" />
           </div>
 
           {/* Visual Design */}
@@ -191,8 +183,8 @@ function Project2() {
             <Typography as="h3" variant="heading5">
               Visual Design
             </Typography>
-            <div className="flex flex-row gap-24 justify-center items-center">
-              <div className="w-1/2 flex flex-col gap-8">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-24 justify-center items-center">
+              <div className="md:w-1/2 flex flex-col gap-4 md:gap-8">
                 <Typography as="h3" variant="heading3">
                   Balancing Tradition and Innovation
                 </Typography>
@@ -208,7 +200,7 @@ function Project2() {
                   <img src={Palette} alt="Colour palette" />
                 </div>
               </div>
-              <div className="bg-neutral-bold2x rounded-2xl w-1/2 flex flex-row gap-20 p-8 ">
+              <div className="bg-neutral-bold2x rounded-2xl md:w-1/2 flex flex-row gap-4 md:gap-20 p-4 md:p-8 ">
                 <div className="flex flex-col  gap-4 items-center">
                   <Typography as="p" variant="body1">
                     Before
@@ -228,7 +220,7 @@ function Project2() {
           </div>
 
           {/* Before & After */}
-          <div id="Before and After" className="section flex flex-col gap-">
+          <div id="Before & After" className="section flex flex-col gap-4 md:gap-8">
             <Typography as="h3" variant="heading5">
               Before & After
             </Typography>
@@ -274,8 +266,8 @@ function Project2() {
                     which caused confusion for users. In the redesign, these
                     were merged into a single, streamlined page for clarity
                   </Typography>
-                  <div className="flex flex-row gap-10">
-                    <div className="flex flex-col gap-4 items-center w-1/2">
+                  <div className="flex flex-col md:flex-row gap-10">
+                    <div className="flex flex-col gap-4 items-center md:w-1/2">
                       <img
                         src={HomeBefore}
                         className="opacity-90"
@@ -285,7 +277,7 @@ function Project2() {
                         Before
                       </Typography>
                     </div>
-                    <div className="flex flex-col gap-4 items-center w-1/2">
+                    <div className="flex flex-col gap-4 items-center md:w-1/2">
                       <img src={HomeAfter} alt="Home Page After" />
                       <Typography as="p" variant="body1">
                         After
@@ -310,8 +302,8 @@ function Project2() {
                     service along with examples of the work, offering a clear
                     and streamlined view of our offerings.
                   </Typography>
-                  <div className="flex flex-row gap-10">
-                    <div className="flex flex-col gap-4 items-center w-1/2">
+                  <div className="flex flex-col md:flex-row gap-10">
+                    <div className="flex flex-col gap-4 items-center md:w-1/2">
                       <img
                         src={ServiceBefore}
                         className="opacity-90"
@@ -321,7 +313,7 @@ function Project2() {
                         Before
                       </Typography>
                     </div>
-                    <div className="flex flex-col gap-4 items-center w-1/2">
+                    <div className="flex flex-col gap-4 items-center md:w-1/2">
                       <img src={ServiceAfter} alt="Services Page After" />
                       <Typography as="p" variant="body1">
                         After

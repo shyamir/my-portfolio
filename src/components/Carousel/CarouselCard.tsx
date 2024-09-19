@@ -71,8 +71,8 @@ const CarouselCard: React.FC<CarouselProps> = ({
             </Typography>
           </div>
 
-          <div className="mt-auto ml-auto pl-8 pt-1 ">
-            <img src={projectImage} alt="Project 1 cover" />
+          <div className="w-auto flex items-center h-full md:h-auto mb-auto mt-auto ml-auto md:pl-8 md:pt-1">
+            <img src={projectImage} alt="Project cover" className=""/>
           </div>
         </div>
       ) : (

@@ -212,8 +212,9 @@ function Resume() {
             <TextButton
               size="lg"
               label="download cv"
-              href="/src/assets/docs/Shyami-Abeysekera.pdf"
+              href="/docs/Shyami-Abeysekera-CV.pdf"
             >
+              
               Download CV
             </TextButton>
           </div>
