@@ -8,6 +8,7 @@ import MainCard from "../components/Card/MainCard";
 
 // assets
 import Image1 from "../assets/project1/image1.png";
+// import Video1 from "../assets/project1/video1.mp4";
 import Image2 from "../assets/project1/image2.png";
 import Layout1On from "../assets/project1/layout1-on.png";
 import Layout1Off from "../assets/project1/layout1-off.png";

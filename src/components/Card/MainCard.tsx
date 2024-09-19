@@ -169,6 +169,9 @@ export default function MainCard({
                         autoPlay
                         loop
                         muted
+                        playsInline // prevent fullscreen on mobile
+                        disablePictureInPicture // disable PIP (Picture in Picture) on mobile
+                        controlsList="nodownload nofullscreen noremoteplayback" // prevent controls
                       >
                         <source src={image1} type="video/mp4" />
                       </video>
