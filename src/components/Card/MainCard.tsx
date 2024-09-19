@@ -37,7 +37,7 @@ export default function MainCard({
                 <Typography
                   as="h2"
                   variant="heading3"
-                  className="mb-2 md:w-4/6 text-center"
+                  className="mb-2 lg:w-4/6 text-center"
                 >
                   I’m passionate about{" "}
                   <span className="text-neutral-soft2x">

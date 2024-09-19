@@ -5,7 +5,7 @@ import cn from "../../util/cn";
 import { useNavigate } from "react-router-dom";
 
 const cardStyles = cva(
-  "flex flex-col gap-2 rounded-3xl overflow-hidden bg-clip-border",
+  "flex flex-col rounded-3xl overflow-hidden bg-clip-border",
   {
     variants: {
       variant: {
@@ -14,8 +14,8 @@ const cardStyles = cva(
         secondary: "bg-neutral-bold opacity-50 hover:cursor-pointer",
       },
       size: {
-        lg: "h-[52vh] w-[82vw] md:h-[56vh] md:w-[60vw] xl:h-[65vh] lg:w-[50vw]",
-        md: "h-[52vh] w-[82vw] md:h-[56vh] md:w-[60vw] xl:h-[65vh] lg:w-[50vw]",
+        lg: "h-[52vh] w-[82vw] md:h-[54vh] md:w-[65vw] xl:h-[65vh] lg:w-[50vw]",
+        md: "h-[52vh] w-[82vw] md:h-[54vh] md:w-[65vw] xl:h-[65vh] lg:w-[50vw]",
       },
     },
     defaultVariants: {
@@ -53,8 +53,8 @@ const CarouselCard: React.FC<CarouselProps> = ({
   return (
     <div className={cn(cardStyles({ variant, size }))} onClick={handleClick}>
       {layout ? (
-        <div className="md:pl-10 pl-6 md:pt-10 pt-6">
-          <div className="flex flex-col gap-2">
+        <div className="h-full flex flex-col justify-start gap-4 lg:gap-10">
+          <div className="flex mt-6 ml-6 md:mt-8 md:ml-10 flex-col lg:gap-2">
             <Typography
               as="h3"
               variant="heading2"
@@ -70,8 +70,7 @@ const CarouselCard: React.FC<CarouselProps> = ({
               {projectType}
             </Typography>
           </div>
-
-          <div className="w-auto flex items-center h-full md:h-auto mb-auto mt-auto ml-auto md:pl-8 md:pt-1">
+          <div className="flex w-full h-full relative px-4 justify-center items-center">
             <img src={projectImage} alt="Project cover" className=""/>
           </div>
         </div>

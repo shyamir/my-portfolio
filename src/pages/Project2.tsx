@@ -183,7 +183,7 @@ function Project2() {
             <Typography as="h3" variant="heading5">
               Visual Design
             </Typography>
-            <div className="flex flex-col md:flex-row gap-8 md:gap-24 justify-center items-center">
+            <div className="flex flex-col md:flex-row gap-8 lg:gap-24 justify-center items-center">
               <div className="md:w-1/2 flex flex-col gap-4 md:gap-8">
                 <Typography as="h3" variant="heading3">
                   Balancing Tradition and Innovation
@@ -200,7 +200,7 @@ function Project2() {
                   <img src={Palette} alt="Colour palette" />
                 </div>
               </div>
-              <div className="bg-neutral-bold2x rounded-2xl md:w-1/2 flex flex-row gap-4 md:gap-20 p-4 md:p-8 ">
+              <div className="bg-neutral-bold2x rounded-2xl md:w-1/2 flex flex-row gap-4 lg:gap-20 p-4 lg:p-8 ">
                 <div className="flex flex-col  gap-4 items-center">
                   <Typography as="p" variant="body1">
                     Before
