@@ -23,14 +23,14 @@ function About() {
         className="text-center"
       ></Typography>
 
-      <AboutCard layout="about"/>
+      <AboutCard layout="about" />
 
       <div className="w-fill flex flex-col gap-3 items-start">
         <Typography as="h3" variant="heading5" className="text-center">
           things my colleagues say
         </Typography>
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 w-full">
-          <div className="w-fill flex flex-col gap-3">
+          <div className="w-fill lg:w-1/2 flex flex-col gap-3">
             <Typography as="p" variant="body1">
               "Donec velit lectus bibendum diam quis libero augue eleifend
               pellentesque. Diam sagittis velit elementum dolor convallis velit
@@ -45,16 +45,20 @@ function About() {
               Fahim Feroz, Senior UI/UX Engineer
             </Typography>
           </div>
-          <div className="w-fill flex flex-col gap-3">
+          <div className="w-fill lg:w-1/2 flex flex-col gap-3">
             <Typography as="p" variant="body1">
-              "Donec velit lectus bibendum diam quis libero augue eleifend
-              pellentesque. Diam sagittis velit elementum dolor convallis velit
-              maecenas orci. Sed sagittis aliquet egestas eu pellentesque.
-              Integer et varius mauris sit nisi. Auctor nunc viverra sed mi
-              lectus porttitor varius. Tortor ac ut blandit aliquam euismod.
-              Fermentum quis eleifend dolor sed tortor metus neque. Consequat
-              amet elit arcu quis nam morbi et vel scelerisque. Mattis aliquet
-              ut tellus aenean"
+              "I had the pleasure of working with Shyami on the CMS v2 project,
+              where she spearheaded the entire UX strategy. Her creativity and
+              attention to detail are matched only by her strong work ethic and
+              commitment to delivering the best user experience possible.
+              Shyami's ability to collaborate and her openness to feedback stood
+              out to me throughout our interactions. She consistently encouraged
+              thoughtful discussions and worked well with the team to ensure
+              that the design aligned with both user needs and business goals.
+              Her soft skills and approachable nature made her an asset to the
+              team, and I have no doubt she will continue to excel in her career
+              as a UI/UX designer. I highly recommend Shyami to any team looking
+              for a passionate and skilled UI/UX professional!"
             </Typography>
             <Typography className="text-right">
               Devaka Kumarasinghe, Senior Software Engineer
