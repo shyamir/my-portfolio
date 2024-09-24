@@ -56,7 +56,7 @@ export default function MainCard({
                 <img
                   src={Portrait}
                   alt="Shyami Abeysekera"
-                  className="rounded-xl w-full h-60 object-cover object-top md:object-cover md:object-top md:h-96 md:w-full lg:h-auto lg:w-2/5 xl:w-1/5"
+                  className="rounded-xl w-full h-60 object-cover md:object-cover md:object-top md:h-96 md:w-full lg:h-auto lg:w-2/5 xl:w-1/5"
                 />
 
                 <div className="flex flex-col gap-6 md:gap-4 lg:gap-8 w-full">
