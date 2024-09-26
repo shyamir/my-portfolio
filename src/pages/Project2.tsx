@@ -220,7 +220,10 @@ function Project2() {
           </div>
 
           {/* Before & After */}
-          <div id="Before & After" className="section flex flex-col gap-4 md:gap-8">
+          <div
+            id="Before & After"
+            className="section flex flex-col gap-4 md:gap-8"
+          >
             <Typography as="h3" variant="heading5">
               Before & After
             </Typography>
@@ -328,7 +331,7 @@ function Project2() {
       </div>
 
       <div className="lg:w-2/12">
-        <ContentTab items={projectArray} path="website-builder+cms" />
+        <ContentTab items={projectArray} path="am-kreations-revamp" />
       </div>
     </div>
   );

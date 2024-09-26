@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 
 type ContentTabProps = {
   items: string[];
-  path: "resume" | "website-builder+cms";
+  path: "resume" | "website-builder+cms" | "am-kreations-revamp";
 };
 
 export default function ContentTab({ items, path }: ContentTabProps) {
