@@ -32,14 +32,24 @@ function About() {
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 w-full">
           <div className="w-fill lg:w-1/2 flex flex-col gap-3">
             <Typography as="p" variant="body1">
-              "Donec velit lectus bibendum diam quis libero augue eleifend
-              pellentesque. Diam sagittis velit elementum dolor convallis velit
-              maecenas orci. Sed sagittis aliquet egestas eu pellentesque.
-              Integer et varius mauris sit nisi. Auctor nunc viverra sed mi
-              lectus porttitor varius. Tortor ac ut blandit aliquam euismod.
-              Fermentum quis eleifend dolor sed tortor metus neque. Consequat
-              amet elit arcu quis nam morbi et vel scelerisque. Mattis aliquet
-              ut tellus aenean"
+              I had the pleasure of being the UX lead of Shyami for almost two
+              years on multiple projects, including the One Studio and DFN ONE
+              mobile applications, and I can confidently say she is an
+              exceptional UI/UX designer. Shyami has an impressive eye for
+              design and consistently demonstrates strong soft skills and
+              ethical work practices. Her collaboration with both designers and
+              development teams has been seamless, making her a reliable and
+              responsible team member. What stands out most about Shyami is her
+              commitment to understanding before acting—she never blindly
+              follows instructions but always seeks clarity to ensure the best
+              outcomes. She is not afraid to discuss and bring in new ideas to
+              the table. This is an invaluable trait in a product designer.
+              Additionally, her curiosity for exploring new approaches and areas
+              within UX has been instrumental in her growth.
+              <br />
+              <br />
+              As someone who has seen her in action firsthand, I highly
+              recommend Shyami and am certain she has a bright future ahead.
             </Typography>
             <Typography className="text-right">
               Fahim Feroz, Senior UI/UX Engineer
@@ -57,8 +67,12 @@ function About() {
               that the design aligned with both user needs and business goals.
               Her soft skills and approachable nature made her an asset to the
               team, and I have no doubt she will continue to excel in her career
-              as a UI/UX designer. I highly recommend Shyami to any team looking
-              for a passionate and skilled UI/UX professional!"
+              as a UI/UX designer.
+              
+              <br />
+              <br />
+              I highly recommend Shyami to any team looking for a
+              passionate and skilled UI/UX professional!"
             </Typography>
             <Typography className="text-right">
               Devaka Kumarasinghe, Senior Software Engineer

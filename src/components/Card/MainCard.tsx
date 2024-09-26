@@ -127,19 +127,32 @@ export default function MainCard({
                       </Typography>
 
                       <div className="flex flex-col gap-0">
-                        <Typography
+                        {/* <Typography
                           as="p"
                           variant="body1"
                           className="mb-2 leading-3"
                         >
                           <a href="tel:+94770763080">+94 770 763 080</a>
-                        </Typography>
+                        </Typography> */}
+
                         <Typography
                           as="p"
                           variant="body1"
                           className="mb-2 leading-3"
                         >
-                          <a href="mailto:abeysekera.shyami@gmail.com">abeysekera.shyami@gmail.com</a>
+                          <a href="mailto:abeysekera.shyami@gmail.com">
+                            abeysekera.shyami@gmail.com
+                          </a>
+                        </Typography>
+
+                        <Typography
+                          as="p"
+                          variant="body1"
+                          className="mb-2 leading-3"
+                        >
+                          <a href="https://www.linkedin.com/in/shyami-abeysekera/">
+                            linkedin.com/in/shyami-abeysekera/
+                          </a>
                         </Typography>
                       </div>
                     </div>
