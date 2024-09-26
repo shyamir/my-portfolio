@@ -29,10 +29,10 @@ function About() {
         <Typography as="h3" variant="heading5" className="text-center">
           things my colleagues say
         </Typography>
-        <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 w-full">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 w-full">
           <div className="w-fill lg:w-1/2 flex flex-col gap-3">
             <Typography as="p" variant="body1">
-              I had the pleasure of being the UX lead of Shyami for almost two
+              "I had the pleasure of being the UX lead of Shyami for almost two
               years on multiple projects, including the One Studio and DFN ONE
               mobile applications, and I can confidently say she is an
               exceptional UI/UX designer. Shyami has an impressive eye for
@@ -49,7 +49,7 @@ function About() {
               <br />
               <br />
               As someone who has seen her in action firsthand, I highly
-              recommend Shyami and am certain she has a bright future ahead.
+              recommend Shyami and am certain she has a bright future ahead."
             </Typography>
             <Typography className="text-right">
               Fahim Feroz, Senior UI/UX Engineer
@@ -68,7 +68,7 @@ function About() {
               Her soft skills and approachable nature made her an asset to the
               team, and I have no doubt she will continue to excel in her career
               as a UI/UX designer.
-              
+
               <br />
               <br />
               I highly recommend Shyami to any team looking for a
