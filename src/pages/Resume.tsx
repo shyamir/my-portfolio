@@ -80,7 +80,7 @@ const experienceArray = [
     position: "UI/UX Engineer",
     duration: "Feb 2023 - Present",
     description:
-      "I led the redesign of a trade application for mobile, enhancing user experience and interface functionality to boost engagement and efficiency. Directed the design of an application builder with an integrated feature store. Conducted user research to assess market fit for a website builder. Spearheaded the revamp of a web-based website builder with an embedded CMS, improving productivity for developers. Maintained design documentation, conducted competitive audits, and created style guides. Executed a rebrand for the website builder, aligning it with the company's brand identity, and managed the company's brand guide and design system for consistency.",
+      "I revamped a mobile trade app to enhance engagement and designed an app builder with an integrated feature store. I led user research for a website builder and improved a web-based builder with a CMS. Additionally, I managed design documentation, style guides, and the company’s brand guide to ensure cohesive branding across projects.",
   },
   {
     company: "CreativeHub",
