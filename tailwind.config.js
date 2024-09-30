@@ -83,9 +83,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-image-primary":
-          "linear-gradient(100deg, rgba(167, 43, 84, 0.5) 0%, rgba(197, 113, 62, 0.5) 100%), url('/src/assets/home/dots.png')",
+          "linear-gradient(100deg, rgba(210, 55, 106, 0.7) 0%, rgba(240, 130, 41, 0.7) 100%), url('/src/assets/home/dots.png')",
+        // "gradient-image-primary":
+        //   "linear-gradient(100deg, rgba(167, 43, 84, 0.5) 0%, rgba(197, 113, 62, 0.5) 100%), url('/src/assets/home/dots.png')",
         "gradient-image-primary-hover":
-          "linear-gradient(100deg, rgba(167, 43, 84, 0.7) 0%, rgba(197, 113, 62, 0.7) 100%), url('/src/assets/home/dots.png')",
+          "linear-gradient(100deg, rgba(167, 43, 84, 0.9) 0%, rgba(197, 113, 62, 0.9) 100%), url('/src/assets/home/dots.png')",
       },
       colors: {
         "primary-soft": "#B44B4A",
@@ -105,6 +107,17 @@ module.exports = {
         "neutral-bold": "#1B1B1B",
         "neutral-bold2x": "#131313",
         "neutral-bold3x": "#0C0C0C",
+
+        // "neutral-main": "#515151",
+
+        // "neutral-soft": "#A8A8A8",
+        // "neutral-soft2x": "#1B1B1B",
+        // "neutral-soft3x": "#131313",
+        // "neutral-soft4x": "#0C0C0C",
+
+        // "neutral-bold": "#D9D9D9",
+        // "neutral-bold2x": "#E8E8E8",
+        // "neutral-bold3x": "#FDFDFD",
       },
       dropShadow: {
         // md: "0 2px 2px rgba(255, 255, 255, 0.5)",
