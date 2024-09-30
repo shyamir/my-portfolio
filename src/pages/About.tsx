@@ -27,7 +27,7 @@ function About() {
 
       <div className="w-fill flex flex-col gap-3 items-start">
         <Typography as="h3" variant="heading5" className="text-center">
-          things my colleagues say
+          testimonials
         </Typography>
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 w-full">
           <div className="w-fill lg:w-1/2 flex flex-col gap-3">

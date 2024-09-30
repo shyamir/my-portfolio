@@ -30,9 +30,9 @@ export default function MainCard({
             <>
               {/* Card Header */}
               <div className="flex flex-col items-center justify-center">
-                <Typography as="h3" variant="heading4" className="mb-5">
+                {/* <Typography as="h3" variant="heading4" className="mb-5">
                   Elevator pitch
-                </Typography>
+                </Typography> */}
 
                 <Typography
                   as="h2"
@@ -127,14 +127,6 @@ export default function MainCard({
                       </Typography>
 
                       <div className="flex flex-col gap-0">
-                        {/* <Typography
-                          as="p"
-                          variant="body1"
-                          className="mb-2 leading-3"
-                        >
-                          <a href="tel:+94770763080">+94 770 763 080</a>
-                        </Typography> */}
-
                         <Typography
                           as="p"
                           variant="body1"
