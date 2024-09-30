@@ -83,7 +83,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-image-primary":
-          "linear-gradient(100deg, rgba(210, 55, 106, 0.7) 0%, rgba(240, 130, 41, 0.7) 100%), url('/src/assets/home/dots.png')",
+          "linear-gradient(100deg, rgba(210, 55, 106, 0.7) 0%, rgba(240, 131, 64, 0.7) 100%), url('/src/assets/home/dots.png')",
         // "gradient-image-primary":
         //   "linear-gradient(100deg, rgba(167, 43, 84, 0.5) 0%, rgba(197, 113, 62, 0.5) 100%), url('/src/assets/home/dots.png')",
         "gradient-image-primary-hover":
