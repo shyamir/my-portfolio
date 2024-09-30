@@ -91,11 +91,11 @@ module.exports = {
       },
       colors: {
         "primary-soft": "#B44B4A",
-        "primary-main": "#A72B54",
-        "primary-bold": "#88163C",
+        "primary-main": "#D2376A",
+        "primary-bold": "#B52A58",
 
-        "secondary-main": "#C5713E",
-        "secondary-bold": "#AD5B2A",
+        "secondary-main": "#F97B2D",
+        "secondary-bold": "#DA6B26",
 
         "neutral-main": "#515151",
 
