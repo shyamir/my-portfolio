@@ -181,7 +181,7 @@ function Project1() {
                 </Typography>
                 <Typography as="p" variant="body1">
                   <span className="text-neutral-soft2x">UI/UX Designer </span>
-                  -- Research, Competitive Analysis, Wireframes, Visual Design,
+                  - Research, Competitive Analysis, Wireframes, Visual Design,
                   Prototyping, Design System, Style Guide, Documentation
                 </Typography>
               </div>
