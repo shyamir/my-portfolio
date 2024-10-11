@@ -102,13 +102,13 @@ export default function MainCard({
 
                       <div className="flex flex-col gap-0">
                         <Typography as="p" variant="body1" className="mb-2">
-                          Product Design --{" "}
+                          Product Design -{" "}
                           <span className="text-neutral-soft2x">
                             Figma, Adobe XD
                           </span>
                         </Typography>
                         <Typography as="p" variant="body1" className="mb-2">
-                          Front-end Development --{" "}
+                          Front-end Development -{" "}
                           <span className="text-neutral-soft2x">
                             ReactJS, HTML, CSS, JS, TS, Tailwind
                           </span>
@@ -132,9 +132,12 @@ export default function MainCard({
                           variant="body1"
                           className="mb-2 leading-3"
                         >
-                          <a href="mailto:abeysekera.shyami@gmail.com">
-                            abeysekera.shyami@gmail.com
-                          </a>
+                          Email -{" "}
+                          <span className="text-neutral-soft2x">
+                            <a href="mailto:abeysekera.shyami@gmail.com">
+                              abeysekera.shyami@gmail.com
+                            </a>
+                          </span>
                         </Typography>
 
                         <Typography
@@ -142,9 +145,12 @@ export default function MainCard({
                           variant="body1"
                           className="mb-2 leading-3"
                         >
-                          <a href="https://www.linkedin.com/in/shyami-abeysekera/">
-                            linkedin.com/in/shyami-abeysekera/
-                          </a>
+                          Linkedin -{" "}
+                          <span className="text-neutral-soft2x">
+                            <a href="https://www.linkedin.com/in/shyami-abeysekera/">
+                              shyami-abeysekera
+                            </a>
+                          </span>
                         </Typography>
                       </div>
                     </div>
